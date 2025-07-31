@@ -1,0 +1,9 @@
+langchain==0.3.26  # this is for using different types of component and interacting with the model
+flask==3.1.1   # this is for the front-end and backened applicaiton
+sentence-transformers==4.1.0  
+pypdf==5.6.1  # this is for the extracting the pdf 
+python-dotenv==1.1.0   # this is for using the api and the other keys in the application
+langchain-pinecone==0.2.8  # this is the vector database 
+langchain-openai==0.3.24   # this is the openai model which we will use in our project
+langchain-community==0.3.26   # this is for using different types of components
+-e .   # this is for the setup.py file to configure all the things
